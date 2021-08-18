@@ -10,4 +10,4 @@ sleep 2
 flask db init 
 
 sleep 4
-flask run -h 0.0.0.0 -p 6000
+flask run -h 0.0.0.0 -p 5000
