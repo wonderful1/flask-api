@@ -8,7 +8,7 @@ pip3 install Werkzeug==2.1.2
 
 
 ## 运行
-```
+```bash
 cd flask-api-tutorial-master
 flask run
 ```
