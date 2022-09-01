@@ -10,7 +10,13 @@ pip3 install flask==2.1.3
 pip3 install Werkzeug==2.1.2  
 ```
 
-## 运行
+## docker-compose容器启动
+```bash
+docker-compose -f dev_docker-compose.yml up
+```
+容器内的启动命令为`sh flask_setup.sh`，可以在`dev_docker-compose.yml`看到
+
+## 内部启动
 ```bash
 cd flask-api-tutorial-master
 flask run
